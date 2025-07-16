@@ -1,5 +1,6 @@
 "use client";
 import { Compare } from "@/Compare";
+import ZenVueHero from "@/ZenVueHero";
 import { useState } from "react";
  const tabs = [
     {
@@ -27,6 +28,7 @@ export default function CameraComparison() {
  
 
   return (
+    <>
     <div className="min-h-screen bg-black text-white p-8">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
@@ -68,5 +70,6 @@ export default function CameraComparison() {
         </div>
       </div>
     </div>
+    <ZenVueHero/></>
   );
 }
